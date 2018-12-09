@@ -1,0 +1,44 @@
+body {
+  background-color: #55acee;
+  text-align: center;
+  font-family: arial;
+  color: white;
+}
+
+header h1 {
+  margin: 100px;
+  font-size: 50px;
+}
+
+.quote {
+  margin: 50px;
+}
+
+.author {
+  margin-bottom: 50px;
+}
+
+.trigger,
+.tweet {
+  width: 30vw;
+  background-color: #55acee;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+
+.trigger {
+  margin: 50px 0;
+  transition: 0.5s;
+}
+
+.trigger:hover {
+  color: #55acee;
+  background-color: white;
+}
+
+.tweet {
+  display: inline-block;
+  color: white;
+}
